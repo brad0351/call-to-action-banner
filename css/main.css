@@ -1,0 +1,80 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 "Open Sans", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -1.5em;
+
+}
+
+.banner {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+  margin-top: 0;
+}
+
+.banner-content {
+  padding: 0 1.5rem;
+  position: absolute;
+  bottom: 1.75rem;
+  transform: translateX(-50%);
+  left: 50%;
+  width: 100%;
+  max-width: 45em;
+  display:flex;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+
+.banner-content h2 {
+  font-size: 3rem;
+  line-height: 1.4;
+  display: inline;
+  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: bold;
+}
+
+.banner-content p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  position: relative;
+  margin: 0;
+  max-height: 500px;
+  padding-top: .5em;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+div .text {
+  padding-bottom: 5em;
+  padding-left: 2em;
+}
+
+div.absolute {
+  position: absolute;
+}
+
+li {
+  background-color: grey;
+  position: absolute;
+  right: 500px;
+  bottom:400px;
+  display: inline-block;
+  padding: 0.4em 0.75em 0.3em;
+  border-radius: 8px;
+  border: 0;
+  color: #fff;
+  text-decoration: none;
+}
